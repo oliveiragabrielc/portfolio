@@ -5,50 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style css/reset.css">
-    <link rel="stylesheet" href="style css/header.css">
-    <link rel="stylesheet" href="style css/section.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/components/banner.css">
+    <link rel="stylesheet" href="css/components/button.css">
+    <link rel="stylesheet" href="css/components/card.css">
+    <link rel="stylesheet" href="css/components/container.css">
+    <link rel="stylesheet" href="css/components/header.css">
+    <link rel="stylesheet" href="css/components/image.css">
+    <link rel="stylesheet" href="css/components/item.css">
+    <link rel="stylesheet" href="css/components/tittle.css">
+    <link rel="stylesheet" href="css/components/wrapper.css">
+    <link rel="stylesheet" href="css/components/skill.css">
+    <link rel="stylesheet" href="css/components/icon.css">
     <title>Gabriel Oliveira - Front-End Developer</title>
 </head>
 
 <body>
 
-    <header>
-        <nav class="navbar">
-            <div class="container-img">
-                <img src="assets/img/logo.png" alt="Logo" />
-            </div>
-            <div class="container-options">
-
-                <a href="#" lang="en">
-                    Skills
-                </a>
-                <a href="#">
-                    Projetos
-                </a>
-                <a href="#">
-                    Sobre
-                </a>
-                <a href="#">
-                    Contatos
-                </a>
-
-            </div>
-            <div class="btn" lang="en">
-                <button>Dowload CV</button>
-            </div>
-        </nav>
+    <header class="header">
+        <img class="image" src="assets/img/logo.png" alt="Logo" />
+        <div class="wrapper">
+            <a class="item" href="#" lang="en">
+                Skills
+            </a>
+            <a class="item" href="#">
+                Projetos
+            </a>
+            <a class="item" href="#">
+                Sobre
+            </a>
+            <a class="item" href="#">
+                Contatos
+            </a>
+            <button class="button">Dowload CV</button>
+        </div>
     </header>
-    <section>
-        <div class="container">
-            <div class="card-name">
-                <span>Gabriel Oliveira</span>
-                <span lang="en">FrontEnd Developer</span>
+    <section class="banner">
+        <div class="wrapper column">
+            <div class="card">
+                <h1 class="tittle">Gabriel Oliveira</h1>
+                <h2 class=" tittle subtitle" lang="en">FrontEnd Developer</h2>
             </div>
-            <button id="first-button">Download CV</button>
-            <button>Contatos</button>
+            <div class="wrapper wrapper-btn">
+                <button class="button">Download CV</button>
+                <button class="button">Contatos</button>
+            </div>
         </div>
     </section>
+ 
 </body>
 
 

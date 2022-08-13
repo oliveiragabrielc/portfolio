@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper.column {
+    flex-direction: column;
+    padding: 116px 91px;
+}
+
+.wrapper-btn {
+    margin-top: 38px;
+    width: 100%;
+    justify-content: space-around;
+}
+.wrapper-skill{
+    width: 300px;
+    flex-wrap: wrap;
+
+}
