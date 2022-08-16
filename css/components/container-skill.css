@@ -1,0 +1,22 @@
+.container-skill{
+    background-color: #F25A70;
+    border-bottom: 10px solid black;
+    padding-top: 50px;
+}
+.container .tittle{
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+.wrapper-items {
+    width: 960px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.wrapper-items .skill-item:nth-child(odd){
+    margin-right:100px;
+}

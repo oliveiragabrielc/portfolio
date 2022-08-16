@@ -6,25 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/components/banner.css">
+    <link rel="stylesheet" href="css/components/main-banner.css">
     <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/card.css">
-    <link rel="stylesheet" href="css/components/container.css">
-    <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/image.css">
+    <link rel="stylesheet" href="css/components/main-card.css">
+    <link rel="stylesheet" href="css/components/container-skill.css">
+    <link rel="stylesheet" href="css/components/main-header.css">
     <link rel="stylesheet" href="css/components/item.css">
     <link rel="stylesheet" href="css/components/tittle.css">
-    <link rel="stylesheet" href="css/components/wrapper.css">
-    <link rel="stylesheet" href="css/components/skill.css">
-    <link rel="stylesheet" href="css/components/icon.css">
+    <link rel="stylesheet" href="css/components/wrapper-btn.css">
+    <link rel="stylesheet" href="css/components/skill-item.css">
     <title>Gabriel Oliveira - Front-End Developer</title>
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="main-header">
         <img class="image" src="assets/img/logo.png" alt="Logo" />
-        <div class="wrapper">
+        <div class="wrapper-nav">
             <a class="item" href="#" lang="en">
                 Skills
             </a>
@@ -40,19 +38,65 @@
             <button class="button">Dowload CV</button>
         </div>
     </header>
-    <section class="banner">
-        <div class="wrapper column">
-            <div class="card">
+    <section class="main-banner">
+        <div class="wrapper-card">
+            <div class="main-card">
                 <h1 class="tittle">Gabriel Oliveira</h1>
                 <h2 class=" tittle subtitle" lang="en">FrontEnd Developer</h2>
             </div>
-            <div class="wrapper wrapper-btn">
+            <div class="wrapper-btn">
                 <button class="button">Download CV</button>
                 <button class="button">Contatos</button>
             </div>
         </div>
     </section>
- 
+    <section class="container-skill">
+        <h2 class="tittle">Skills</h2>
+        <div class="wrapper-items">
+            <article class="skill-item">
+                <img class="icon" src="assets/img/ico_html5.png" alt="Icone do HTML">
+                <div class="wrapper-skill">
+                    <h3 class="title subtitle">HTML</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+            <article class="skill-item">
+                <img class="icon" src="assets/img/ico_css3.png" alt="Icone do CSS">
+                <div class="wrapper-skill">
+                    <h3 class="title subtitle">CSS</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+            <article class="skill-item">
+                <img class="icon" src="assets/img/ico_js.png" alt="Icone do JavaScript">
+                <div class="wrapper-skill">
+                    <h3 class="title subtitle">JavaScript</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+            <article class="skill-item">
+                <img class="icon" src="assets/img/ico_react.png" alt="Icone do React">
+                <div class="wrapper-skill">
+                    <h3 class="title subtitle">React</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+            <article class="skill-item">
+                <img class="icon" src="assets/img/ico_html5.png" alt="Icone do HTML">
+                <div class="wrapper-skill">
+                    <h3 class="title subtitle">HTML</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+            <article class="skill-item">
+                <img class="icon" src="assets/img/ico_css3.png" alt="Icone do CSS">
+                <div class="wrapper-skill">
+                    <h3 class="title subtitle">CSS</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+        </div>
+    </section>
 </body>
 
 

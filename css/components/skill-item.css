@@ -1,0 +1,25 @@
+.skill-item {
+    width: 436px;
+    height: 90px;
+    display: flex;
+    margin-bottom: 38px;
+}
+.skill-item .icon {
+    width: 80px;
+    height: 90px;
+    margin-right: 32px;
+}
+
+.skill-item .wrapper-skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.progress-bar {
+    width: 360px;
+    background-color: #FFF;
+    border: 5px solid #000;
+    height: 40px;
+}
+
