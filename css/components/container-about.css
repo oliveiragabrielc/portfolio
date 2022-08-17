@@ -1,0 +1,19 @@
+.container-about{
+    background-color: #7C5E99;
+    padding-top: 50px;
+    border-bottom: 10px solid black;
+}
+.container-about .tittle{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container-about .about-text{
+    width: 1000px;
+    font-family: 'Fira Code', sans-serif;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+
+}

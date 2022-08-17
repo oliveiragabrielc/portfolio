@@ -1,0 +1,27 @@
+.container-project{
+    height: 520px;
+    background-color: black;
+    border-bottom: 10px solid #F25A70 ;
+}
+.container-project .tittle {
+    text-align: center;
+    color: white;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.container-project .wrapper-project{
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper-project .item{
+    width: 270px;
+    height: 270px;
+    background-color: blueviolet;
+    box-shadow: 10px 10px 0px white;
+}
+
+.wrapper-project .item .project-item{
+   width: 250px;
+   height: 260px;
+   padding-top:10px;
+}
